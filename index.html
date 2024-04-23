@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utility Functions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card custom-shadow">
+          <div class="card-body">
+            <h5 class="card-title text-center">Palindrome Checker</h5>
+            <form id="palindromeForm">
+              <div class="form-group">
+                <label for="inputString">Enter a string:</label>
+                <input type="text" class="form-control" id="inputString" placeholder="Enter a string">
+              </div>
+              <button type="submit" class="btn btn-primary">Check Palindrome</button>
+            </form>
+            <div class="result mt-3" id="palindromeResult"></div>
+          </div>
+        </div>
+        <div class="card custom-shadow mt-4">
+          <div class="card-body">
+            <h5 class="card-title text-center">Minimum and Maximum Numbers</h5>
+            <form id="minMaxForm">
+              <div class="form-group">
+                <label for="numbersArray">Enter a series of numbers separated by commas:</label>
+                <input type="text" class="form-control" id="numbersArray" placeholder="e.g., 5, 8, 3, 15, 12">
+              </div>
+              <button type="submit" class="btn btn-primary">Find Min/Max Numbers</button>
+            </form>
+            <div class="result mt-3" id="minMaxResult"></div>
+          </div>
+        </div>
+        <div class="card custom-shadow mt-4">
+          <div class="card-body">
+            <h5 class="card-title text-center">Missing Number Identification</h5>
+            <form id="missingNumberForm">
+              <div class="form-group">
+                <label for="numberSeries">Enter a series of numbers separated by commas:</label>
+                <input type="text" class="form-control" id="numberSeries" placeholder="e.g., 11, 12, 14, 15, 16, 18, 19, 20">
+              </div>
+              <button type="submit" class="btn btn-primary">Find Missing Number</button>
+            </form>
+            <div class="result mt-3" id="missingNumberResult"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
